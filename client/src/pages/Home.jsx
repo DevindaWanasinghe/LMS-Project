@@ -1,12 +1,32 @@
 import React from 'react';
 import Footer from '../Components/Footer';
 import '../css/home.css';
+import Holi1 from '../../public/images/courses-images/Holi1.png'
+import Holi2 from '../../public/images/courses-images/Holi2.png'
 
 export default function Home() {
   
   return (
       <div className="wrapper">
         <div className='main'>
+
+
+
+        <div className="title-box-1">
+          <div className="holi-img1"> 
+              <img src={Holi1} alt='Holi1'/> 
+          </div>
+
+          <div className="holi-img2">
+              <img src={Holi2} alt='Holi2'/> 
+          </div>
+
+          <div className='home-title-box-2'>
+            <p className='home-title-name-1'>COURSES</p>
+            <p className='home-title-name-2'>SINHALA</p>
+          </div>   
+      </div>
+
           <div className='head'>
             <p className='heading'>your gateway to </p>
             <p className='heading'>interactive education</p>

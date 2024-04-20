@@ -21,6 +21,15 @@ div.head{
     margin-top: 40px;
     
 }
+
+.home-title-box-2{
+    text-align: center;
+    margin: auto;
+    margin-right: 90px;
+}
+
+
+
 .head .heading{
     color: rgb(25,31,92);
     text-align: center;
