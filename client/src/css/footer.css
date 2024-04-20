@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montregular;
+}
+@font-face {
+  font-family: montregular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+} 
+.main-div{
+  background-color:rgb(25,31,92);
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  right: 20px;
+  left: 20px;
+  border-radius: 10px;
+  padding: 15px;
+
+
+
+  
+}
+.div-home,.div-account,.div-course,.div-contact{
+  width: 70px;
+  height: auto;
+  display: inline-block ;
+  border-radius: 10px; 
+  margin-left:14px;
+}
+/*.div-home:hover,.div-account:hover,.div-course:hover,.div-contact:hover{
+  background-color: white;
+
+}*/
+.div-home:hover .icon,.div-account:hover .icon,.div-course:hover .icon,.div-contact:hover .icon{
+  background-color: white;
+  color: rgb(25,31,92);
+  
+}
+.selecting{
+  border-radius: 15px;
+  margin-top: 5px;
+  color: white;
+  padding: 3px;
+}
+.active svg.icon{
+  background-color: white;
+  color: rgb(25,31,92);
+}
+.icon{
+  color: white;
+  padding-top: 3px;
+}
+svg.icon{
+  border-radius: 10px;
+}
