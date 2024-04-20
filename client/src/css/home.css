@@ -26,11 +26,30 @@ div.head{
     text-align: center;
     margin: auto;
     margin-right: 90px;
+    padding-top: 12px;
 }
 
+.home-title-name-1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: montregular;
+    margin: auto;
+    
+}
 
+.home-title-name-2{
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: montregular;
+    font-weight: lighter;
+    margin: auto;
+    padding-top: 5px;
+}
 
-.head .heading{
+/* .head .heading{
     color: rgb(25,31,92);
     text-align: center;
     text-transform: uppercase;
@@ -45,7 +64,7 @@ div.head{
 }
 .head .heading:last-child{
     font-weight: 500;
-}
+} */
 .bdge-text{
     background-color: rgb(25,31,92);
     width: 340px;

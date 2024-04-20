@@ -10,8 +10,6 @@ export default function Home() {
       <div className="wrapper">
         <div className='main'>
 
-
-
         <div className="title-box-1">
           <div className="holi-img1"> 
               <img src={Holi1} alt='Holi1'/> 
@@ -22,15 +20,10 @@ export default function Home() {
           </div>
 
           <div className='home-title-box-2'>
-            <p className='home-title-name-1'>COURSES</p>
-            <p className='home-title-name-2'>SINHALA</p>
+            <p className='home-title-name-1'>YOUR GATEWAY TO</p>
+            <p className='home-title-name-2'>INTERACTIVE EDUCATION</p>
           </div>   
       </div>
-
-          <div className='head'>
-            <p className='heading'>your gateway to </p>
-            <p className='heading'>interactive education</p>
-          </div>
 
           <div className='user-friendly'>
             <div className='bdge-text'>
